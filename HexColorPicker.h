@@ -103,4 +103,7 @@
 - (BOOL)supportsMode:(NSInteger)mode;
 - (NSInteger)currentMode;
 
+- (IBAction)copyUIColor:(NSButton *)sender;
+- (IBAction)copyNSColor:(NSButton *)sender;
+
 @end
