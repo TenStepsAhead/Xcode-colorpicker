@@ -161,6 +161,9 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
 			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "hexcolorpicker" */;
 			compatibilityVersion = "Xcode 2.4";
 			developmentRegion = English;
@@ -269,16 +272,14 @@
 		1DEB914008733D840010E9CD /* Release 10.4 */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				ARCHS = "$(ARCHS_STANDARD)";
 				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = HCP_BUILD_TIGER;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IBC_STRIP_NIBS = NO;
 				"New Setting" = "";
 				PREBINDING = NO;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = "Release 10.4";
 		};
@@ -294,7 +295,7 @@
 				IBC_STRIP_NIBS = NO;
 				"New Setting" = "";
 				PREBINDING = NO;
-				SDKROOT = macosx10.7;
+				SDKROOT = macosx;
 			};
 			name = "Release 10.5";
 		};
